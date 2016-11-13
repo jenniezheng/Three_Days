@@ -1,2 +1,3 @@
-# ThreeDays
-Text adventure game in which you have three days to live.
+What will you do if you only had three days to live?
+
+<img src="threeDays.PNG>" height="600" width="800">
