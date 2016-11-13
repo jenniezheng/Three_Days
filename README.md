@@ -1,3 +1,3 @@
 What will you do if you only had three days to live?
 
-<img src="ThreeDays.png" height="300" width="400">
+<img src="ThreeDays.png" height="400" width="600">
