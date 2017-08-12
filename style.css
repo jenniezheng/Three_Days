@@ -15,6 +15,6 @@ body{
     color:white;
 }
 
-#jumbotron{
+#content.jumbotron{
 	background-color:black !important;
 }
