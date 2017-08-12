@@ -13,8 +13,5 @@ body{
 	margin: 0 auto;
     text-align: center;
     color:white;
-}
-
-#content.jumbotron{
-	background-color:black !important;
+    background-color:black !important;
 }
