@@ -1,3 +1,3 @@
 setTimeout(function() {
- $('#jumbotron').slideUp();
-}, 15000 );
+ $('#jumbotron').css("color","black");
+}, 10000 );
