@@ -6,11 +6,11 @@ canvas{
 
 body{
 	margin: 0;
-	backroundColor:black;
+	background-color:black;
 }
 
 #content{
 	margin: 0 auto;
     text-align: center;
-    color:white;
+    color:gray;
 }
