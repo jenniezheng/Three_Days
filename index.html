@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | TextGame</title>
-    <style>
-    /* a style sheet needs to be present for cursor hiding and custom cursors to work. */
-    </style>
+    <title>Three Days</title>
+   
+     <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Custom css -->
+  <link rel="stylesheet" href="./style.css" >
+   
   </head>
   <body>
     <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="800px"></canvas>
@@ -17,8 +20,7 @@
     compatibilitycheck: null,
     dataUrl: "Release/Build.data",
     codeUrl: "Release/Build.js",
-    memUrl: "Release/Build.mem",
-    
+    memUrl: "Release/Build.mem"
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
