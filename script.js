@@ -1,3 +1,3 @@
 setTimeout(function() {
- $('.jumbotron').css("color","black");
-}, 10000 );
+ $('#content').css("color","black");
+}, 15000 );
