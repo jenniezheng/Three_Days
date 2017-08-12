@@ -1,25 +1,28 @@
 <!doctype html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | TextGame</title>
-   
-      <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-      <!-- Custom css -->
-    <link rel="stylesheet" href="./style.css" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | TextGame</title>
+  
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./style.css" >
 
-   </head>
-  <body>
-    
-        <div id="content">
-        <p><span style="font-size:3em;">Three Days</span> ~ Note: Game takes a while to load.</p>
-        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-        </div>
+</head>
+<body>
+  
+  <div id="content">
+   <div class="jumbotron">
+     <h1>Three Days</h1>      
+     <p>Game takes a while to load.</p>
+   </div>
+   <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+ </div>
 
 
-    <script type='text/javascript'>
+ <script type='text/javascript'>
   var Module = {
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
@@ -32,5 +35,5 @@
 </script>
 <script src="Release/UnityLoader.js"></script>
 
-  </body>
+</body>
 </html>
