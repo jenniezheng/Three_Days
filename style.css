@@ -1,11 +1,14 @@
 canvas{
-    margin: 0 auto;
     width: 800px;
-    /* text-align: center; */
     height: 600px;
 }
 
 body{
 	margin: 0;
 	backroundColor:black;
+}
+
+#content{
+	margin: 0 auto;
+    text-align: center;
 }
