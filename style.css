@@ -4,3 +4,8 @@ canvas{
     /* text-align: center; */
     height: 600px;
 }
+
+body{
+	margin: 0;
+	backroundColor:black;
+}
